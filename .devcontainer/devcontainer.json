@@ -6,6 +6,19 @@
 		"dockerfile": "Dockerfile"
 	},
 	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"ms-azuretools.vscode-docker",
+				"ms-vscode-remote.remote-containers",
+				"ms-vscode.vscode-typescript-tslint-plugin",
+				"msjsdiag.debugger-for-chrome",
+				"eamodio.gitlens",
+				"mhutchie.git-graph",
+				"mhutchie.git-commit-msg-linter",
+				"streetsidesoftware.code-spell-checker"
+			]
+		},
 		"settings": {
 			"terminal.integrated.defaultProfile.linux": "bash",
 			"editor.formatOnSave": true,
